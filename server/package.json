@@ -1,0 +1,32 @@
+{
+  "name": "guildbuddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/koa-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikamikaz3/GuildBuddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikamikaz3/GuildBuddy/issues"
+  },
+  "homepage": "https://github.com/ikamikaz3/GuildBuddy#readme",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "koa": "^2.5.3",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "pg": "^7.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "jest": "^23.6.0"
+  }
+}
