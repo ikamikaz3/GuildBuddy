@@ -4,7 +4,7 @@ const router = new Router();
 router.get('/', async (ctx) => {
   ctx.body = {
     status: 'success',
-    message: 'Hello world'
+    message: 'hello, world!'
   };
 })
 
