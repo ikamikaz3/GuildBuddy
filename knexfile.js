@@ -11,6 +11,10 @@ module.exports = {
     },
     seeds: {
       directory: path.join(BASE_PATH, 'seeds')
+    },
+    pool: {
+      min: 0,
+      max: 7
     }
   },
   development: {
