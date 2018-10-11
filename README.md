@@ -1,10 +1,6 @@
-# Building a RESTful API with Koa and Postgres
+# GuildBuddy
 
-[![Build Status](https://travis-ci.org/mjhea0/node-koa-api.svg?branch=master)](https://travis-ci.org/mjhea0/node-koa-api)
-
-## Want to learn how to build this project?
-
-Check out the [blog post](http://mherman.org/blog/2017/08/23/building-a-restful-api-with-koa-and-postgres).
+Guild management application
 
 ## Want to use this project?
 
