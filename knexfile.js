@@ -7,24 +7,24 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://gbuddyuser:tia39sonrce@localhost:5432/koa_api_test',
     migrations: {
-      directory: path.join(BASE_PATH, 'migrations')
+      directory: path.join(BASE_PATH, 'migrations'),
     },
     seeds: {
-      directory: path.join(BASE_PATH, 'seeds')
+      directory: path.join(BASE_PATH, 'seeds'),
     },
     pool: {
       min: 0,
-      max: 7
-    }
+      max: 7,
+    },
   },
   development: {
     client: 'pg',
     connection: 'postgres://gbuddyuser:tia39sonrce@localhost:5432/koa_api',
     migrations: {
-      directory: path.join(BASE_PATH, 'migrations')
+      directory: path.join(BASE_PATH, 'migrations'),
     },
     seeds: {
-      directory: path.join(BASE_PATH, 'seeds')
-    }
-  }
+      directory: path.join(BASE_PATH, 'seeds'),
+    },
+  },
 };

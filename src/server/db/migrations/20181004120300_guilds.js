@@ -1,11 +1,15 @@
+function up(knex) {
+  return knex.schema.createTable('guilds', (table) => {
+    table.increments();
+    table.string('name').notNullable().unique();
+  });
+}
 
-exports.up = function(knex, Promise) {
-    return knex.schema.createTable('guilds', (table) => {
-        table.increments();
-        table.string('name').notNullable().unique();
-      });  
-};
+function down(knex) {
+  return knex.schema.dropTable('guilds');
+}
 
-exports.down = function(knex, Promise) {
-    return knex.schema.dropTable('guilds');  
+module.exports = {
+  up,
+  down,
 };
